@@ -76,6 +76,7 @@ homebrew_cask_apps:
   - chromedriver
   - docker
   - google-chrome
+  - google-drive
   - handbrake
   - licecap
   - slack
@@ -83,11 +84,13 @@ homebrew_cask_apps:
   - vagrant
   - visual-studio-code
   - dbeaver-community
+  - xquartz
+  - vnc-viewer
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
-mas_email: ""
-mas_password: ""
+mas_installed_apps:
+  - { id: 1451685025, name: "WireGuard" }
+mas_email: "jrwagz@gmail.com"
 
 osx_script: "~/.osx --no-restart"
 
