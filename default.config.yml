@@ -67,6 +67,7 @@ homebrew_installed_packages:
   - termshark
   - tree
   - htop
+  - dive
 
 homebrew_taps:
   - homebrew/core
