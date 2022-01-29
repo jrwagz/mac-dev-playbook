@@ -1,0 +1,6 @@
+---
+- name: Ensure that plistwatch is installed via Go
+  ansible.builtin.command: go install github.com/catilac/plistwatch@latest
+  args:
+    creates: "~/go/bin/plistwatch"
+  become: false

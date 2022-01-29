@@ -87,6 +87,7 @@ homebrew_cask_apps:
   - dbeaver-community
   - xquartz
   - vnc-viewer
+  - stats
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
@@ -116,4 +117,5 @@ pip_packages: []
 #   version: "0.16.3" # default: N/A
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
-post_provision_tasks: []
+post_provision_tasks:
+  - ./post_provision_tasks/*.yml
