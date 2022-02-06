@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -e
+
+function exitMsg () {
+  echo "ERROR: $1"
+  exit 1
+}
+
+function Lint () {
+    yamllint .
+    ansible-lint
+}
+
+function RunPlaybook () {
+    ansible-playbook main.yml --ask-become-pass
+}
+
+[ "$1" == "" ] && exitMsg "Must enter a function to execute"
+
+# Calls function($1) with optional args
+function=$1
+shift
+${function} "$@"
