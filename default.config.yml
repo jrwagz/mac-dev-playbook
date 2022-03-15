@@ -70,6 +70,7 @@ homebrew_installed_packages:
   - tree
   - htop
   - dive
+  - gnu-sed
 
 homebrew_taps:
   - homebrew/core
