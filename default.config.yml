@@ -27,7 +27,7 @@ sudoers_custom_config: ''
 dotfiles_repo: https://github.com/jrwagz/dotfiles.git
 dotfiles_repo_version: jrwagz-mods
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitignore
@@ -82,17 +82,11 @@ homebrew_cask_apps:
   - docker
   - google-chrome
   - google-drive
-  - handbrake
-  - licecap
   - slack
-  - transmit
-  - vagrant
   - visual-studio-code
-  - dbeaver-community
   - xquartz
   - vnc-viewer
   - stats
-  - lastpass
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
