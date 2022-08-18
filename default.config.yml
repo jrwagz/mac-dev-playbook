@@ -71,6 +71,7 @@ homebrew_installed_packages:
   - htop
   - dive
   - gnu-sed
+  - telnet
 
 homebrew_taps:
   - homebrew/core
