@@ -73,6 +73,7 @@ homebrew_installed_packages:
   - dive
   - gnu-sed
   - telnet
+  - verilator
 
 homebrew_taps:
   - homebrew/core
