@@ -4,6 +4,7 @@ downloads: ~/.ansible-downloads/
 configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
+configure_sublime: false
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: false
@@ -112,7 +113,8 @@ npm_packages: []
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
-pip_packages: []
+pip_packages:
+  - apio
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
 #   version: "0.16.3" # default: N/A
