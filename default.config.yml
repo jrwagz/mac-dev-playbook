@@ -91,7 +91,8 @@ homebrew_cask_apps:
   - vnc-viewer
   - stats
   - rectangle
-  - icestudio
+  - beyond-compare
+  # - icestudio # Need to sort out arm issues first
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
