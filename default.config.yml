@@ -48,14 +48,13 @@ homebrew_installed_packages:
   - gettext
   - gifsicle
   - git
-  - github/gh/gh
+  - gh
   - go
   - gpg
   - httpie
   - iperf
   - libevent
   - sqlite
-  - mcrypt
   - nmap
   - node
   - nvm
@@ -76,9 +75,7 @@ homebrew_installed_packages:
   - telnet
   - verilator
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
+homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
